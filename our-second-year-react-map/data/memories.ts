@@ -98,7 +98,7 @@ export const memories: Memory[] = [
     location: "Fez, Morocco",
     coordinates: [34.06196, -4.98277],
     story:
-      "I still remember the morning of our first day in the medina, the calm before the storm. The first occurence of our soon to be daily orange juice, mint tea, and bread from the weird dude at the Riad. After the feast we stepped out into the streets where we were greated by ceramics and kittens every 5 steps,swept by the hustle and bustle of the medina. Out of nowehere you happen to spot the most beautiful alley in the city and I couldn't help but capture the moment.",
+      "I still remember the morning of our first day in the medina, the calm before the storm. The first occurence of our soon to be daily orange juice, mint tea, and bread from the weird dude at the Riad. After the feast we stepped out into the streets where we were greated by ceramics and kittens every 5 steps, and swept by the hustle and bustle of the medina.",
     loveNote: "God you're beautiful.",
     image: "/photos/fez.jpeg",
   },
