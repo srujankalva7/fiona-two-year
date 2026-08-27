@@ -88,7 +88,7 @@ export const memories: Memory[] = [
     story:
       "This entire trip feels like a fever dream, probably more so for you. It was a mashup of Boot meeting the fam, some of the homies, and Emma and Jia were there??? It was so nice to be home and just hang out in my city with you, and I will never forget those Chinatown runs every day. Hopefully we run it back next year???",
     loveNote: "Hopefully next year you aren't wearing a mini skirt by Navy Pier.",
-    image: "",
+    image: "/photos/chicago.jpeg",
   },
   {
     id: 6,
