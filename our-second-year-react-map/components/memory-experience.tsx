@@ -12,7 +12,7 @@ import {
   Play,
   Sparkles,
 } from "lucide-react";
-import { memories, relationship } from "@/data/memories";
+import { memories, relationship } from "../data/memories";
 
 export function MemoryExperience() {
   const mapElementRef = useRef<HTMLDivElement>(null);
