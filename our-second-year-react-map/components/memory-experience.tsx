@@ -2,7 +2,6 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Map as LeafletMap, Marker as LeafletMarker } from "leaflet";
-import Image from "next/image";
 import {
   ArrowLeft,
   ArrowRight,
@@ -249,12 +248,10 @@ export function MemoryExperience() {
         <article className="memory-card" aria-live="polite">
           <div className={`memory-photo ${activeMemory.image ? "has-photo" : ""}`}>
             {activeMemory.image ? (
-              <Image
-                src={activeMemory.image}
-                alt={`A memory from ${activeMemory.title}`}
-                fill
-                sizes="(max-width: 760px) 100vw, (max-width: 1120px) 42vw, 26vw"
-                className="memory-photo-image"
+              <img
+              src={activeMemory.image}
+              alt={`A memory from ${activeMemory.title}`}
+              className="memory-photo-image"
               />
             ) : (
               <div className="photo-placeholder">
